@@ -7,4 +7,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Update README with my action
-        uses: testuserrrrrrr/my-action-demo2@2fd9f22d3c348037f71e8a19ce208b8f6060ddd6
+        uses: testuserrrrrrr/my-action-demo2@ad32cbb58e50051d704968ae21f5c754c187061f
