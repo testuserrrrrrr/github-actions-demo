@@ -12,8 +12,8 @@ jobs:
     steps:
       - name: Update README with my action
         uses: testuserrrrrrr/my-action-demo2@c5c2140415d4a4a867cbdee36df9e7f4172f88b0
-        with:
-          target-repo: "${{ github.repository }}"
+        # with:
+        #   target-repo: "${{ github.repository }}"
       # - name: Save updates
       #   uses: stefanzweifel/git-auto-commit-action@v6
       #   with:
