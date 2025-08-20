@@ -11,10 +11,10 @@ jobs:
       contents: write
     steps:
       - name: Update README with my action
-        uses: testuserrrrrrr/my-action-demo2@ef137fb7ec8173e23dd3687323a3afd9780a3ae9
+        uses: testuserrrrrrr/my-action-demo2@9d688c0cb76b053979b34c4faaf73a4f6e7ab077
         with:
           target-repo: "${{ github.repository }}"
-      - name: Save updates
-        uses: stefanzweifel/git-auto-commit-action@v6
-        with:
-          commit_message: Add AAAAAA to README
+      # - name: Save updates
+      #   uses: stefanzweifel/git-auto-commit-action@v6
+      #   with:
+      #     commit_message: Add AAAAAA to README
