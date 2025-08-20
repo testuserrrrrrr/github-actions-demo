@@ -11,7 +11,7 @@ jobs:
       contents: write
     steps:
       - name: Update README with my action
-        uses: testuserrrrrrr/my-action-demo2@9d688c0cb76b053979b34c4faaf73a4f6e7ab077
+        uses: testuserrrrrrr/my-action-demo2@c5c2140415d4a4a867cbdee36df9e7f4172f88b0
         with:
           target-repo: "${{ github.repository }}"
       # - name: Save updates
