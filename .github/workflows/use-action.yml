@@ -5,12 +5,16 @@ on: [push]
 jobs:
   test-my-action:
     runs-on: ubuntu-latest
+    permissions:
+      # Give the default GITHUB_TOKEN write permission to commit and push the
+      # added or changed files to the repository.
+      contents: write
     steps:
       - name: Update README with my action
         uses: testuserrrrrrr/my-action-demo2@ef137fb7ec8173e23dd3687323a3afd9780a3ae9
         with:
           target-repo: "${{ github.repository }}"
       - name: Save updates
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v6
         with:
           commit_message: Add AAAAAA to README
