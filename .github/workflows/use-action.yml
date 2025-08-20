@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Update README with my action
-        uses: testuserrrrrrr/my-action-demo2@305debf7bbf2472aea1abe0285b0a63545cff47f
+        uses: testuserrrrrrr/my-action-demo2@bf4a0d68ba428cafc7683e32f62509fd1b423767
         with:
           target-repo: "${{ github.repository }}"
           token: "${{ secrets.GITHUB_TOKEN }}"
