@@ -11,5 +11,5 @@ jobs:
       contents: write
     steps:
       - name: Update README with my action
-        uses: testuserrrrrrr/my-action-demo2@f7bbd99f38dae841dab6bcc7459ed397a809c750
+        uses: testuserrrrrrr/my-action-demo2@f6ccc9689c83c81d3e05339d7f8a69a9de90e4f2
 
